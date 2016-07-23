@@ -1,0 +1,50 @@
+& {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color1;
+    font-family: 'Montserrat', Arial, sans-serif;
+    box-sizing: border-box;
+
+    h2 {
+        margin: px(194) px(6) px(68) 0;
+        font-size: px(44);
+        line-height: px(52);
+        text-align: center;
+    }
+
+    .grid {
+        width: px(1880);
+
+        .grid-sizer {
+            width: px(600);
+        }
+
+        .gutter-sizer {
+            width: px(30);
+        }
+
+        .grid-item {
+            position: relative;
+            width: px(600);
+            margin-bottom: px(30);
+
+            img {
+                display: block;
+                width: 100%;
+                border-radius: 5px;
+            }
+
+            span {
+                position: absolute;
+                top: 43%;
+                left: 0;
+                width: 100%;
+                color: $color3;
+                font-size: 22px;
+                text-align: center;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

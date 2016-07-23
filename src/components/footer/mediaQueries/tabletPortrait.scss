@@ -1,0 +1,25 @@
+@import '../desktop';
+
+& {
+    padding: 0 px(80);
+
+    h3 {
+        margin-top: px(74);
+    }
+
+    h5 {
+        margin: px(74) px(44) 0 px(10);
+    }
+
+    div {
+        ul {
+            li {
+                margin-bottom: px(20);
+            }
+        }
+    }
+
+    .designedBy {
+        margin-left: px(40);
+    }
+}

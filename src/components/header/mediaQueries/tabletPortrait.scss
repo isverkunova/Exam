@@ -1,0 +1,24 @@
+@import '../desktop';
+
+& {
+    height: px(1400);
+    background: url('../img/headerTabletBG.jpg') no-repeat 0 0;
+
+    div {
+        width: px(1336);
+    }
+
+    h1 {
+        margin-right: px(6);
+    }
+
+    p {
+        margin-right: px(6);
+        letter-spacing: px(.3);
+    }
+
+    & > a {
+        margin-right: px(8);
+        padding: px(24) px(48);
+    }
+}

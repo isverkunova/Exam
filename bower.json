@@ -1,0 +1,22 @@
+{
+  "name": "Exam",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Ira Sverkunova <iren.sverkunova@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "imagesloaded": "^4.1.0",
+    "masonry": "^4.1.0"
+  }
+}

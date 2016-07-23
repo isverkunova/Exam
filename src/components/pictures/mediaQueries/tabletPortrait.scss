@@ -1,0 +1,21 @@
+@import '../desktop';
+
+& {
+    .grid {
+        width: px(1494);
+        margin-left: px(42);
+
+        .grid-sizer {
+            width: px(468);
+        }
+
+        .gutter-sizer {
+            width: px(30);
+        }
+
+        .grid-item {
+            width: px(468);
+            margin-bottom: 15px;
+        }
+    }
+}

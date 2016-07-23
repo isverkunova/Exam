@@ -1,0 +1,22 @@
+@import '../desktop';
+
+& {
+    h2 {
+        margin-left: px(12);
+    }
+
+    .container {
+        width: px(1496);
+
+        .carousel {
+            div {
+                width: px(472);
+
+                &::before,
+                &::after {
+                    top: px(78);
+                }
+            }
+        }
+    }
+}

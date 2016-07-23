@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>URLAUBSGLÜCK</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link type="text/css" rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <a href="#">Log in</a>
+                <a href="#">Sign up</a>
+            </div>
+            <h3>URLAUBSGLÜCK</h3>
+        </div>
+        <h1>share your holiday dreams</h1>
+        <p>And find the perfect partner to fulfill it</p>
+        <a href="#">Find your holiday partner</a>
+    </header>
+
+    <section class="howWorks">
+        <h2>How Urlaubsglück works?</h2>
+        <div class="container">
+            <div class="carousel">
+                <div class="step1">
+                    <div>
+                        <span>step 1</span>
+                        <h2>Sed leo enim, condimentum</h2>
+                        <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+                <div class="step2">
+                    <div>
+                        <span>step 2</span>
+                        <h2>Morbi velit risus</h2>
+                        <p>Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                    </div>
+                </div>
+                <div class="step3">
+                    <div>
+                        <span>step 3</span>
+                        <h2>Sed leo enim, condimentum</h2>
+                        <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel">
+                <div class="step2">
+                    <div>
+                        <span>step 2</span>
+                        <h2>Morbi velit risus</h2>
+                        <p>Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                    </div>
+                </div>
+                <div class="step3">
+                    <div>
+                        <span>step 3</span>
+                        <h2>Sed leo enim, condimentum</h2>
+                        <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+                <div class="step1">
+                    <div>
+                        <span>step 1</span>
+                        <h2>Sed leo enim, condimentum</h2>
+                        <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel">
+                <div class="step3">
+                    <div>
+                        <span>step 3</span>
+                        <h2>Sed leo enim, condimentum</h2>
+                        <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+                <div class="step1">
+                    <div>
+                        <span>step 1</span>
+                        <h2>Sed leo enim, condimentum</h2>
+                        <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+                <div class="step2">
+                    <div>
+                        <span>step 2</span>
+                        <h2>Morbi velit risus</h2>
+                        <p>Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <h2>Meet a partner for your best holiday</h2>
+        <div>
+            <div class="bradley"><img src="img/bradleyHunter.jpg" alt="Bradley Hunter">
+                <h5>Bradley Hunter</h5>
+                <p>Based in Chicago. I love playing tennis and loud music.</p>
+            </div>
+            <div class="lucas"><img src="img/lucasMarsha.jpg" alt="Lucas Marsha">
+                <h5>Lucas Marsha</h5>
+                <p>I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+            </div>
+            <div class="heather"><img src="img/heatherWalker.jpg" alt="Heather Walker">
+                <h5>Heather Walker</h5>
+                <p>I'm a happy person that loves cats and climbing on mountains.</p>
+            </div>
+            <div class="bradleyGirl"><img src="img/bradleyHunter(girl).jpg" alt="Bradley Hunter">
+                <h5>Bradley Hunter</h5>
+                <p>Based in Chicago. I love playing tennis and loud music.</p>
+            </div>
+        </div>
+        <a href="#">See other partners</a>
+    </section>
+
+    <section class="pictures">
+        <h2>Discover holiday activity ideas</h2>
+        <script type="text/template" id="grid">
+            <div class="grid">
+                <div class="grid-sizer"></div>
+                <% for(var i = 0; i < 7; i++) { %>
+                    <div class="gutter-sizer"></div>
+                    <div class="grid-item">
+                        <img src="<%= hits[i].webformatURL %>" />
+                        <span><%= hits[i].tags.split(', ')[1] %></span>
+                    </div>
+                <% } %>
+            </div>
+        </script>
+    </section>
+
+    <section class="search">
+        <h2>Discover holiday activity ideas</h2>
+        <p>Hi! What are your holiday interests?</p>
+        <form action="#">
+            <input type="text" placeholder="Enter your interests">
+            <button class="ajaxBtn">Search partners</button>
+        </form>
+    </section>
+
+    <footer>
+        <h3>URLAUBSGLÜCK</h3>
+        <div>
+            <h5>Company</h5>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <h5>Partners</h5>
+        <div class="designedBy">
+            <p>designed by</p>
+            <a href="#"><img src="img/aretoLogo.png" alt="Areto logo"></a>
+        </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="bower/masonry/dist/masonry.pkgd.min.js"></script>
+<script src="bower/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

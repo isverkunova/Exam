@@ -1,0 +1,75 @@
+& {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: px(1400);
+    background: url('../img/headerDesktopBG.jpg') no-repeat 0 0;
+    color: $color1;
+    font-family: 'Montserrat', Arial, sans-serif;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: px(1876);
+        margin-top: px(78);
+
+        div {
+            display: flex;
+            order: 2;
+            width: px(306);
+            margin-top: 0;
+
+            a {
+                display: block;
+                color: $color1;
+                font-size: px(28);
+                font-weight: bold;
+                text-decoration: none;
+                box-sizing: border-box;
+            }
+
+            a + a {
+                padding: px(18) px(32);
+                border: 2px solid $color1;
+                border-radius: 19px;
+            }
+        }
+
+        h3 {
+            order: 1;
+            font-size: px(42);
+        }
+    }
+
+    h1 {
+        width: px(1172);
+        margin-top: px(278);
+        font-size: px(102);
+        letter-spacing: px(1.4);
+        line-height: px(126);
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    p {
+        width: px(800);
+        margin-top: px(54);
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: px(48);
+        letter-spacing: px(.4);
+        line-height: px(42);
+        text-align: center;
+    }
+
+    & > a {
+        margin-top: px(78);
+        padding: px(28) px(48);
+        border-radius: 19px;
+        background-color: $color2;
+        color: $color1;
+        font-size: px(28);
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
